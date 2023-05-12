@@ -1,0 +1,36 @@
+.signupform{
+    background-color: white;
+    border-radius: 4px;
+
+    padding: 2%;
+    margin: 5%;
+
+    display: flex;
+    flex-direction: column;
+
+    max-width: 370px ;
+}
+
+
+.signupform>input,.signupbtn{
+    margin: 2%;
+    border: none;
+    text-decoration: none;
+    padding: 2%;
+    border-radius: 3px;
+}
+
+
+.signupform>input{
+    outline: 0.2px solid hsl(0, 0%, 89%);
+}
+
+.signupform>input:focus{
+    outline: 0.5px solid  hsl(249, 100%, 46%);
+    
+}
+
+
+.signupbtn{
+    background-color: hsl(154, 59%, 51%);
+}
